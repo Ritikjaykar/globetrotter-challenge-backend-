@@ -1,0 +1,65 @@
+{
+<<<<<<< HEAD
+  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed:destinations": "node scripts/seedDestinations.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "_comment": "Removed 'type: module' to allow CommonJS",
+  "dependencies": {
+    "backend": "file:",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "mongoose": "^8.13.2",
+    "openai": "^4.93.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+=======
+  "name": "globetrotter-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "canvas-confetti": "^1.9.3",
+    "globetrotter-landing": "file:",
+    "html2canvas": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.56.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+>>>>>>> 772c508277ab4304bcb8c4f67e18d70b9e4eb533
+  }
+}
